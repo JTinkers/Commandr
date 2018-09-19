@@ -41,6 +41,11 @@ public static void PrintTwo()
 }
 ```
 
+- Add this line anywhere in your Main(), preferably at the bottom of the method.
+```
+CmdController.Process(args);
+```
+
 **Make sure they are static and your arguments start with - or --.**
 
 - The result of running this example app with `-one "yes" "no" -two` is:
