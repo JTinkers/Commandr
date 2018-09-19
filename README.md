@@ -25,7 +25,9 @@ class StartupManager
 }
 ```
 
-- Add a method to your class for each argument you want your app to process.
+- Add a method to your class for each parameter you want your controller to process:
+
+**Make sure your methods are static and your arguments start with - or --.**
 
 ```csharp
 [CmdHook("-one")]
@@ -41,14 +43,12 @@ public static void PrintTwo()
 }
 ```
 
-- Add this line anywhere in your Main(), preferably at the bottom of the method:
+- Add this line anywhere in your Main() to let the controller know when to process the arguments:
 ```
 CmdController.Process(args);
 ```
 
-**Make sure they are static and your arguments start with - or --.**
-
-- The result of running this example app with `-one "yes" "no" -two` is:
+- The result of running this example app with `-one "yes" "no" -two` as the startup params is:
 
 ```
 yes - no
