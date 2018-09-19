@@ -41,7 +41,7 @@ public static void PrintTwo()
 }
 ```
 
-- Add this line anywhere in your Main(), preferably at the bottom of the method.
+- Add this line anywhere in your Main(), preferably at the bottom of the method:
 ```
 CmdController.Process(args);
 ```
