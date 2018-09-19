@@ -10,7 +10,7 @@ https://www.nuget.org/packages/Commandr_JonekCode/
 -   [Usage](#usage)
 
 ## Installation
-- run `nuget install commandr_jonekcode` via NuGet CLI.
+- run `Install-Package Commandr_JonekCode` via Package Manager.
 
 All functionality is now accessible via 'Commandr' namespace.
 
