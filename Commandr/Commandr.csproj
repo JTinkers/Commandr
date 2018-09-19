@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Commandr</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>JonekCode</Authors>
+    <Description>Simple package that allows you to bind startup parameters directly to methods.</Description>
+    <Copyright>JonekCode</Copyright>
+    <PackageLicenseUrl>https://github.com/jonekcode/Commandr/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/jonekcode/Commandr/blob/master/LICENSE</PackageProjectUrl>
+    <PackageIconUrl>https://github.com/jonekcode/Commandr/blob/master/logo.png?raw=true</PackageIconUrl>
+    <RepositoryUrl>https://github.com/jonekcode/Commandr</RepositoryUrl>
+    <PackageTags>start, cmd, commandr, commandline</PackageTags>
+    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+</Project>
