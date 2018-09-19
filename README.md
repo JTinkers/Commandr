@@ -1,6 +1,9 @@
 # Commandr
 Simple package that allows you to bind startup parameters directly to methods.
 
+## Nuget Link
+https://www.nuget.org/packages/Commandr_JonekCode/
+
 ## Table of Contents
 
 -   [Installation](#installation)
