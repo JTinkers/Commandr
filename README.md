@@ -44,7 +44,7 @@ public static void PrintTwo()
 ```
 
 - Add this line anywhere in your Main() to let the controller know when to process the arguments:
-```
+```csharp
 CmdController.Process(args);
 ```
 
